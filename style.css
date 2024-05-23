@@ -1,0 +1,88 @@
+*{
+    background-color: #ffeeee;
+}
+
+.about{
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),
+    6px 6px 15px rgba(0, 0, 0, 0.2);
+    margin-left: 10px;
+    background-color:transparent;
+    padding: 90px;
+    border-radius: 25px;
+}
+.one ,.two ,.three,.four{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20px;
+    
+
+}
+
+.team-member {
+    text-align: center;
+    float:inline-start ;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f0ccccce;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),
+    6px 6px 15px rgba(0, 0, 0, 0.2);
+  background: #fff6ea;
+  border-radius: 20px;
+    
+}
+.team-member img {
+    
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 25px;
+    margin-right: 10px;
+    transition: .3s;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),
+    6px 6px 15px rgba(0, 0, 0, 0.2);
+  background: #fff6ea;
+    
+
+}
+.team-member:hover img {
+    transform:rotatez(10deg);
+    background: antiquewhite;
+
+}
+
+@media (max-width: 768px) {
+    .team-member img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+header  {
+    text-align: center;
+    background-color: #ffeeee;
+    padding: 20px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),
+    6px 6px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+}
+.team{
+    text-align: center;
+    background-color: #ffeeee;
+    padding: 20px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),
+    6px 6px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+}
+/* .about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+} */
